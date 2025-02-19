@@ -11,7 +11,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 prompt="""You are a Youtube video summariser. You will be taking 
 the transcript text and summarising the entrire video and 
-providing the important summary in points within 250 words.
+providing the important summary, key points and highlights in points within 300 words.
 Please provide the summary of the text given here: """
 
 ##for video id
